@@ -1,4 +1,11 @@
-Evas Generic Loaders 1.8.0
+Evas Generic Loaders 1.8.1
+
+Changes since Evas Generic Loaders 1.8.0:
+-----------------------------------------
+
+Fixes:
+   * Bugfix: add a typefind to gstreamer plugin pipeline
+   * Bugfix: unbreak gstreamer plugin
 
 Changes since Evas Generic Loaders 1.7.0:
 -----------------------------------------
