@@ -1,4 +1,11 @@
-Evas Generic Loaders 1.11.0
+Evas Generic Loaders 1.11.2
+
+Changes since 1.11.0:
+---------------------
+
+Fixes:
+
+   * Improve LibreOffice binary detection
 
 Changes since Evas Generic Loaders 1.10.0:
 ------------------------------------------
