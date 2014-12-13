@@ -1,0 +1,25 @@
+Source: evas-loaders
+Section: libs
+Priority: optional
+Maintainer: Debian Pkg-e Team <pkg-e-devel@lists.alioth.debian.org>
+Uploaders: Albin Tonnerre <lutin@debian.org>
+Build-Depends: debhelper (>= 9), dh-autoreconf, libeina-dev (>= 1.7.7),
+ librsvg2-dev, libspectre-dev, libraw-dev
+Standards-Version: 3.9.5
+Vcs-Git: git://anonscm.debian.org/pkg-e/libs/evas-loaders.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-e/libs/evas-loaders.git
+Homepage: http://www.enlightenment.org
+
+Package: libevas-loaders
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: libevas1 (<< 1.7.7-5)
+Description: Additional file format loaders for libevas
+ This package contains programs that allow libevas to load various images
+ and documents formats for which it has no built-in support:
+  - XCF
+  - SVG
+  - PS
+  - RAW
