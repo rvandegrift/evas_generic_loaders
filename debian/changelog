@@ -1,8 +1,9 @@
-evas-loaders (1.8.1-2.1) UNRELEASED; urgency=medium
+evas-loaders (1.12.0-0.1) UNRELEASED; urgency=medium
 
   * Non-maintainer upload.
   * Point watch file to .xz instead of .gz, use uversionmangle to handle beta
     versions.
+  * New upstream version.
 
  -- Andreas Metzler <ametzler@debian.org>  Sat, 13 Dec 2014 16:06:49 +0100
 
