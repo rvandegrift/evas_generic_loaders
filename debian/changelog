@@ -1,0 +1,21 @@
+evas-loaders (1.12.0-0.1) UNRELEASED; urgency=medium
+
+  * Non-maintainer upload.
+  * Point watch file to .xz instead of .gz, use uversionmangle to handle beta
+    versions.
+  * New upstream version.
+
+ -- Andreas Metzler <ametzler@debian.org>  Sat, 13 Dec 2014 16:06:49 +0100
+
+evas-loaders (1.8.1-2) unstable; urgency=medium
+
+  * debian/rules: explicitly disable poppler (Closes: #737053)
+  * debian/control: fix Replaces to avoid trouble with Ubuntu (LP: #1273529)
+
+ -- Albin Tonnerre <lutin@debian.org>  Wed, 05 Feb 2014 20:27:41 +0100
+
+evas-loaders (1.8.1-1) unstable; urgency=medium
+
+  * Initial upload as a separate source package (Closes: #735073)
+
+ -- Albin Tonnerre <lutin@debian.org>  Sun, 12 Jan 2014 16:22:01 +0100
