@@ -11,6 +11,9 @@ evas-loaders (1.15.0-1) UNRELEASED; urgency=medium
   * Bump standards version to 3.9.6
   * Update build dep to libeina 1.15
   * Build dep on libgstreamer1.0-dev
+  * Adjust dependencies to help ensure strict version sync with EFL
+  * Update version number
+  * Relax unnecessary tight Build-Depends
 
  -- Ross Vandegrift <ross@kallisti.us>  Sun, 27 Sep 2015 16:25:35 -0400
 
