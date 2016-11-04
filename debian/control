@@ -7,9 +7,9 @@ Build-Depends: debhelper (>= 9), dh-autoreconf, librsvg2-dev, libspectre-dev,
  libraw-dev, libgstreamer1.0-dev,
  libeina-dev (>= 1.15.1)
 Standards-Version: 3.9.6
-Vcs-Git: git://anonscm.debian.org/pkg-e/libs/evas-loaders.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-e/libs/evas-loaders.git
-Homepage: http://www.enlightenment.org
+Vcs-Git: https://anonscm.debian.org/git/pkg-e/libs/evas-loaders.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-e/libs/evas-loaders.git
+Homepage: https://www.enlightenment.org
 
 Package: libevas-loaders
 Architecture: any
