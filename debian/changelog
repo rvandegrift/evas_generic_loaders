@@ -1,9 +1,15 @@
-evas-loaders (1.17.0-1) UNRELEASED; urgency=medium
+evas-loaders (1.17.0-1) experimental; urgency=medium
 
+  [ Ross Vandegrift ]
   * Non-maintainer upload.
   * New upstream version.
 
- -- Ross Vandegrift <ross@kallisti.us>  Sat, 13 Aug 2016 16:37:38 -0400
+  [ Nicolas Braud-Santoni ]
+  * Use build-time hardening
+  * debian/control: Use TLS-enabled, canonical links
+  * debian/control: Add Uploaders
+
+ -- Nicolas Braud-Santoni <nicolas@braud-santoni.eu>  Fri, 04 Nov 2016 17:30:05 +0100
 
 evas-loaders (1.16.0-1) UNRELEASED; urgency=medium
 
